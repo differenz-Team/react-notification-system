@@ -1,0 +1,47 @@
+.notification-buttons {
+    text-align: center;
+    padding: 20px;
+}
+
+.notification-buttons h2 {
+    margin-bottom: 20px;
+}
+
+.notification-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #61dafb;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.notification-buttons button:hover {
+    background-color: #21a1f1;
+}
+
+@media (max-width: 768px) {
+    .notification-buttons {
+        padding: 15px;
+    }
+
+    .notification-buttons button {
+        margin: 10px 0;
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .notification-buttons {
+        padding: 10px;
+    }
+
+    .notification-buttons button {
+        width: 100%;
+        padding: 12px;
+        font-size: 12px;
+    }
+}

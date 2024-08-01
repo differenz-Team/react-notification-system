@@ -1,0 +1,89 @@
+.notification-list {
+    padding: 20px;
+}
+
+.notification-list h2 {
+    margin-bottom: 20px;
+}
+
+.notification-list table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+.notification-list th,
+.notification-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.notification-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.notification-list th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4caf50;
+    color: white;
+}
+
+.notification-list button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #61dafb;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.notification-list button:hover {
+    background-color: #21a1f1;
+}
+
+@media (max-width: 768px) {
+    .notification-list {
+        padding: 15px;
+    }
+
+    .notification-list h2 {
+        font-size: 18px;
+    }
+
+    .notification-list table {
+        font-size: 14px;
+        overflow-x: auto;
+    }
+
+    .notification-list th,
+    .notification-list td {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .notification-list {
+        padding: 10px;
+    }
+
+    .notification-list h2 {
+        font-size: 16px;
+    }
+
+    .notification-list table {
+        font-size: 12px;
+    }
+
+    .notification-list th,
+    .notification-list td {
+        padding: 4px;
+    }
+
+    .notification-list button {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
